@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>verifyMessageRefressComplete</name>
+   <name>Scenario 1 - HandlingAlert</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>dea1d142-a282-4d6e-ac66-c03a5c13a9af</testCaseGuid>
+   <testCaseGuid>8c2b76b5-2081-4cc7-9e1f-3382275cb3fb</testCaseGuid>
 </TestCaseEntity>
