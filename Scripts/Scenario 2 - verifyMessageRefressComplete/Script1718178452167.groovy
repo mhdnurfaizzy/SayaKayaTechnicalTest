@@ -17,3 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('C:\\Users\\HOME\\Katalon Studio\\SayaKayaTechnicalTest\\APK\\flutter-app (1).apk', true)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Material'), 0)
+
+Mobile.scrollToText('Pull to refresh')
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Pull to refreshRefresh indicators (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Refresh'), 0)
+
+Mobile.verifyElementText(findTestObject('Object Repository/android.view.View - Refresh complete'), 'Refresh complete')
+
+Mobile.closeApplication()
+

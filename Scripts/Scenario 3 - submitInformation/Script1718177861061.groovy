@@ -17,3 +17,39 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('C:\\Users\\HOME\\Katalon Studio\\SayaKayaTechnicalTest\\APK\\flutter-app (1).apk', true)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Material'), 0)
+
+Mobile.scrollToText('Text field')
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Text fieldsSingle line of editable text and numbers'), 
+    0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.EditText - Name'), 0)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText - What do people call you'), 'Muhammad Nurfaizi', 
+    10)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.EditText - Phone Number'), 0)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText - Phone Number'), '0819039182012', 15)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText - E-mail'), 'izi@gmail.com', 10)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText - Life story'), 'stay on the path', 10)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText - Salary'), '9.000.000', 10)
+
+Mobile.scrollToText('SUBMIT')
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText - Password'), 'inipassword', 10)
+
+Mobile.scrollToText('SUBMIT')
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - SUBMIT'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.closeApplication()
+

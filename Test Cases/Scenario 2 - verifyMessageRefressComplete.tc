@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Scenario 2 - verifyMessageRefressComplete</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>dea1d142-a282-4d6e-ac66-c03a5c13a9af</testCaseGuid>
-</TestCaseEntity>
