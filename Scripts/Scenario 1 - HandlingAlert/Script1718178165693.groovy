@@ -25,7 +25,7 @@ Mobile.tap(findTestObject('Object Repository/android.widget.Button - Alerts'), 0
 
 Mobile.tap(findTestObject('Object Repository/android.widget.Button - Alert'), 0)
 
-Mobile.getText(findTestObject('Object Repository/android.view.View - Discard draft'), 0)
+Mobile.verifyElementText(findTestObject('Object Repository/android.view.View - Discard draft'), 'Discard draft?')
 
 Mobile.tap(findTestObject('Object Repository/android.widget.Button - Discard'), 0)
 
