@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "8FC06E41B363BBAAC6FA2205967ECF02",
+  "keywordClasses": [
+    {
+      "name": "com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
