@@ -11,8 +11,6 @@ This repository contains the technical test for mobile automation using Katalon 
 - [Running the Tests](#running-the-tests)
 - [Video Demonstration](#video-demonstration)
 - [Manual Test Cases](#manual-test-cases)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
